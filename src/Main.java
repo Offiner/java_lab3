@@ -27,6 +27,7 @@ public class Main {
             b) dodać studentów do Listy ArrayList,
             c) przeiterować listę za pomocą pętli forEach wywołując na każdym objekcie metodę toString() (w każdej iteracji);
          */
+        Student = new Student(){};
 
     }
 }
