@@ -32,11 +32,11 @@ public class Osoba {
 
     @Override
     public String toString() {
-        return "Osoba{" +
-                "imie='" + imie + '\'' +
+        return
+                "Imie='" + imie + '\'' +
                 ", nazwisko='" + nazwisko + '\'' +
-                ", index=" + index +
-                '}';
+                ", index=" + index
+                ;
     }
 
     ;
