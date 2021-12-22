@@ -33,6 +33,7 @@ public class Main {
         samochody.forEach((n)-> System.out.println(n));
         motocykle.forEach((n)-> System.out.println(n));
         rowery.forEach((n)-> System.out.println(n));
+
         
 
      }
