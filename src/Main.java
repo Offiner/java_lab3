@@ -45,11 +45,7 @@ public class Main {
         studenci.add(student3);
         studenci.add(student4);
         studenci.add(student5);
-        for(Student student:studenci){
-            System.out.println(student.getOsoba() +", "+ student.getWydzialEnum() );
-        }
-
-
+        studenci.forEach((n)-> System.out.println(n));
 
     }
 }
