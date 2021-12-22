@@ -2,7 +2,7 @@ public class Student {
     private Osoba osoba;
     private WydzialEnum wydzialEnum;
 
-    public Student(String osoba, WydzialEnum wydzialEnum) {
+    public Student(Osoba osoba, WydzialEnum wydzialEnum) {
         this.osoba = osoba;
         this.wydzialEnum = wydzialEnum;
     }

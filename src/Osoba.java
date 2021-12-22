@@ -11,7 +11,7 @@ public class Osoba {
         this.index = 0;
     }
 
-    public Osoba(String imie, String nazwisko, int pieniadze) {
+    public Osoba(String imie, String nazwisko, int index) {
         this.imie = imie;
         this.nazwisko = nazwisko;
         this.index = index;
@@ -29,9 +29,6 @@ public class Osoba {
         this.index = index;
     }
 
-    /*public int wyliczPieniadze() {
-        return this.pieniadze;
-    }*/
 
     @Override
     public String toString() {
